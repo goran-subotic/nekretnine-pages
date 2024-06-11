@@ -1,10 +1,115 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>My Cool Website</title>
-   </head>
-   <body>
-      <h1>Welcome to my website! ⭐️</h1>
-      <p>How was your day? 🎉</p>
-   </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .nav {
+            background: #444;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        .nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .main {
+            flex: 70%;
+            padding: 20px;
+        }
+        .sidebar {
+            flex: 30%;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+        .post {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .post h2 {
+            margin-bottom: 10px;
+        }
+        .post p {
+            line-height: 1.6;
+        }
+        .footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>My Personal Blog</h1>
+    </div>
+
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="main">
+                <div class="post">
+                    <h2>Welcome to My Blog!</h2>
+                    <p>This is a simple blog template where you can share your thoughts, ideas, and experiences. Start writing your posts here and engage with your audience.</p>
+                </div>
+                <div class="post">
+                    <h2>Latest Post</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel ligula scelerisque, finibus odio et, bibendum nulla. Curabitur in ligula nec nunc tincidunt congue.</p>
+                </div>
+                <!-- Add more posts as needed -->
+            </div>
+
+            <div class="sidebar">
+                <h3>About Me</h3>
+                <p>Hi, I'm [Your Name], a [Your Profession/Interest]. Welcome to my personal blog where I share my thoughts and experiences on various topics. Stay tuned!</p>
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Category 1</a></li>
+                    <li><a href="#">Category 2</a></li>
+                    <li><a href="#">Category 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>My Personal Blog &copy; 2024</p>
+    </div>
+
+</body>
 </html>
